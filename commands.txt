@@ -1,0 +1,2 @@
+docker build --tag college-router-docker .
+docker run --publish 9999:9999 college-router-docker
